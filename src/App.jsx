@@ -12,6 +12,7 @@ import Category from './pages/Category'
 import AnimalCategories from './pages/AnimalCategories'
 import Product from './pages/Product'
 import Subcategory from './pages/Subcategory'
+import About from './pages/About'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/allat/:animalSlug" element={<AnimalCategories />} />
             <Route path="/allat/:animalSlug/:subcategorySlug" element={<Subcategory />} />
             <Route path="/category/:id" element={<Category />} />
+            <Route path="/about" element={<About />} />
             <Route path="/termek/:id" element={<Product />} />
           </Routes>
           <Footer />

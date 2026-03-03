@@ -72,11 +72,11 @@ export const categories = [
         id: 'talak',
         slug: 'talak',
         name: 'Tálak',
-        image: '/images/macska/talak/talak1.jpg',
+        image: '/images/macska/talak/t5.jpg',
         items: [
-          { id: 'talak-keramia', name: 'Kerámia tál', price: 2490, image: '/images/macska/talak/talak1.jpg', description: 'Stabil kerámia tál a tiszta étkezésért.' },
-          { id: 'talak-muanyag', name: 'Műanyag tál', price: 990, image: '/images/macska/talak/talak2.jpg', description: 'Könnyű, mosogatógépben mosható tál.' },
-          { id: 'talak-automata', name: 'Automata etető', price: 12990, image: '/images/macska/talak/talak3.jpg', description: 'Programozható automata etető időzítővel.' }
+          { id: 'talak-keramia', name: 'Kerámia tál', price: 2490, image: '/images/macska/talak/t4.jpg', description: 'Stabil kerámia tál a tiszta étkezésért.' },
+          { id: 'talak-muanyag', name: 'Műanyag tál', price: 990, image: '/images/macska/talak/t2.jpg', description: 'Könnyű, mosogatógépben mosható tál.' },
+          { id: 'talak-automata', name: 'Automata etető', price: 12990, image: '/images/macska/talak/t1.jpg', description: 'Programozható automata etető időzítővel.' }
         ]
       }
     ]
@@ -104,9 +104,9 @@ export const categories = [
         name: 'Ketrecek & házak',
         image: '/images/ragcsalok/horcsog/haz.png',
         items: [
-          { id: 'ketrec-alap', name: 'Alap ketrec', price: 6000, image: '/images/ragcsalok/horcsog/haz.png', description: 'Könnyen tisztítható, biztonságos ketrec.' },
-          { id: 'ketrec-lux', name: 'Luxus ház', price: 12000, image: '/images/ragcsalok/horcsog/haz2.png', description: 'Több szintes, kiegészítőkkel.' },
-          { id: 'ketrec-padlo', name: 'Pót padló', price: 1500, image: '/images/ragcsalok/horcsog/padlo.png', description: 'Csúszásmentes pót padló a ketrechz.' }
+          { id: 'ketrec-alap', name: 'Emeletes Faház', price: 6000, image: '/images/ragcsalok/horcsog/haz.png', description: 'Könnyen tisztítható, biztonságos ketrec.' },
+          { id: 'ketrec-lux', name: 'Luxus ház', price: 4500, image: '/images/ragcsalok/horcsog/haz2.png', description: 'Több szintes, kiegészítőkkel.' },
+          { id: 'ketrec-padlo', name: 'Ketrec', price: 12000, image: '/images/ragcsalok/nyul/ketrec1.png', description: 'Csúszásmentes pót padló a ketrechz.' }
         ]
       },
       {
@@ -116,8 +116,8 @@ export const categories = [
         image: '/images/ragcsalok/horcsog/alagut.png',
         items: [
           { id: 'alagut', name: 'Alagút', price: 3000, image: '/images/ragcsalok/horcsog/alagut.png', description: 'Játékos alagút a mozgás és bújás örömére.' },
-          { id: 'futokerek', name: 'Futókerék', price: 4500, image: '/images/ragcsalok/horcsog/futo.png', description: 'Csendes futókerék kis rágcsálóknak.' },
-          { id: 'husito', name: 'Rágófa', price: 900, image: '/images/ragcsalok/horcsog/rago.png', description: 'Természetes rágófa fogápolásra.' }
+          { id: 'futokerek', name: 'Alom', price: 4500, image: '/images/ragcsalok/nyul/alom.png', description: 'Csendes futókerék kis rágcsálóknak.' },
+          { id: 'husito', name: 'Itató', price: 900, image: '/images/ragcsalok/tmalac/itato1.png', description: 'Természetes rágófa fogápolásra.' }
         ]
       }
     ]
@@ -145,19 +145,19 @@ export const categories = [
         name: 'Fűtés & világítás',
         image: '/images/hullok/t2.jpg',
         items: [
-          { id: 'futoegyo-1', name: 'Fűtőégő 75W', price: 15000, image: '/images/hullok/t2.jpg', description: 'Hőmérséklet szabályozó fűtőégő hüllők számára.' },
-          { id: 'uvb-lampa', name: 'UVB lámpa 10.0', price: 12000, image: '/images/hullok/uvb.jpg', description: 'Fontos UVB sugárzás csontosodáshoz és egészséghez.' },
-          { id: 'termosztat', name: 'Digitális termosztát', price: 6990, image: '/images/hullok/termosztat.jpg', description: 'Pontoss hőmérséklet-szabályozás a terráriumban.' }
+          { id: 'futoegyo-1', name: 'Fűtőégő 75W', price: 8000, image: '/images/hullok/t14.jpg', description: 'Hőmérséklet szabályozó fűtőégő hüllők számára.' },
+          { id: 'uvb-lampa', name: 'UVB lámpa 10.0', price: 9999, image: '/images/hullok/t13.jpg', description: 'Fontos UVB sugárzás csontosodáshoz és egészséghez.' },
+          { id: 'termosztat', name: 'Digitális termosztát', price: 6990, image: '/images/hullok/termosz.jpg', description: 'Pontoss hőmérséklet-szabályozás a terráriumban.' }
         ]
       },
       {
         id: 'kiegeszitok',
         slug: 'kiegeszitok',
         name: 'Kiegészítők',
-        image: '/images/hullok/kiegeszitok.jpg',
+        image: '/images/hullok/para.jpg',
         items: [
-          { id: 'substrat', name: 'Aljzat substrát 10L', price: 4500, image: '/images/hullok/substrat.jpg', description: 'Megfelelő aljzat terráriumi állatoknak.' },
-          { id: 'hygrometer', name: 'Páratartalom-mérő', price: 1590, image: '/images/hullok/hygro.jpg', description: 'Könnyen használható páratartalom- és hőmérő.' },
+          { id: 'substrat', name: 'Aljzat substrát 10L', price: 4500, image: '/images/hullok/aljzat.jpg', description: 'Megfelelő aljzat terráriumi állatoknak.' },
+          { id: 'hygrometer', name: 'Páratartalom-mérő', price: 1590, image: '/images/hullok/para.jpg', description: 'Könnyen használható páratartalom- és hőmérő.' },
           { id: 'díszlet', name: 'Terrárium díszlet', price: 2990, image: '/images/hullok/diszlet.jpg', description: 'Mesterséges búvóhely és dekoráció.' }
         ]
       }
@@ -210,9 +210,36 @@ export const categories = [
     name: 'Hal',
     image: './images/hal.png',
     subcategories: [
-      { id: 'fish-tank-1', name: 'Akvarium 60L', price: 45000, image: '/images/halak/a1.jpg', description: 'Teljesen felszerelt akvárium kezdőknek.' },
-      { id: 'fish-food-1', name: 'Haleleség', price: 1200, image: '/images/halak/a2.jpg', description: 'Kiegyensúlyozott haleleség minden fajnak.' },
-      { id: 'fish-filter-1', name: 'Szűrőberendezés', price: 8000, image: '/images/halak/a1.jpg', description: 'Hatékony szűrő a tiszta vízért.' }
+      {
+        id: 'akvarium',
+        slug: 'akvarium',
+        name: 'Akváriumok',
+        image: '/images/halak/a1.jpg',
+        items: [
+          { id: 'akv-60l', name: 'Akvárium 60L', price: 45000, image: '/images/halak/a1.jpg', description: 'Teljesen felszerelt akvárium kezdőknek.' },
+          { id: 'akv-30l', name: 'Akvárium 30L', price: 25000, image: '/images/halak/a3.jpg', description: 'Kis méretű akvárium asztali használatra.' }
+        ]
+      },
+      {
+        id: 'eledel',
+        slug: 'eledel',
+        name: 'Eleség',
+        image: '/images/halak/a2.jpg',
+        items: [
+          { id: 'hal-tap-250g', name: 'Haleleség 250g', price: 1200, image: '/images/halak/a2.jpg', description: 'Kiegyensúlyozott haleleség minden fajnak.' },
+          { id: 'hal-tap-100g', name: 'Haleleség 100g', price: 650, image: '/images/halak/a2.jpg', description: 'Kis kiszerelés kedvező árban.' }
+        ]
+      },
+      {
+        id: 'szuro',
+        slug: 'szuro',
+        name: 'Szűrők & felszerelés',
+        image: '/images/halak/a1.jpg',
+        items: [
+          { id: 'szuro-bio', name: 'Szűrőberendezés', price: 8000, image: '/images/halak/a1.jpg', description: 'Hatékony szűrő a tiszta vízért.' },
+          { id: 'futes', name: 'Akvárium fűtő', price: 3990, image: '/images/halak/a4.jpg', description: 'Állítható termosztáttal ellátott fűtő.' }
+        ]
+      }
     ]
   }
 ]

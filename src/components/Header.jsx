@@ -36,6 +36,7 @@ export default function Header() {
           <i className="bi bi-cart" aria-hidden="true" />
           <span className="cart-badge">{totalItems}</span>
         </NavLink>
+        <NavLink to="/about" className="nav-btn" activeClassName="nav-btn--active" onClick={() => setOpen(false)}>Rólunk</NavLink>
         {user && <button onClick={() => { doLogout(); setOpen(false) }} className="nav-btn">Kijelentkezés</button>}
       </nav>
     </header>
